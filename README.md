@@ -28,7 +28,7 @@ Khi các mô hình bị overfitting thì sẽ áp dụng các phương pháp nh�
 
 Với mô hình đơn giản nhất là một mạng shallow neural network như sau: Input -> Dense 128 unit -> Output
 
-![shallow neural network](images/shallow-neural-network.png)
+![shallow neural network](images/shallow-neural-network.PNG)
 
 Kết quả của mô hình này khá tốt, nhưng vấn đề hiện tại nó đang bị overfitting.
 
