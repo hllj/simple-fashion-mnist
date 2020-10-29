@@ -8,7 +8,7 @@ Bài toán Nhận diện ảnh thời trang với dữ liệu sử dụng là Fa
 
 *   Output: Kết quả phân loại của bức ảnh input thuộc 1 trong 10 loại bao gồm: T-shirt/top, Trouser, Pullover, Dress, Coat, Sandal, Shirt, Sneaker, Bag, Ankle Boot
 
-![problem statement](images/problem-statement.png)
+![problem statement](images/problem-statement.PNG)
 
 # Hướng giải quyết
 
@@ -38,7 +38,7 @@ Kết quả của mô hình này khá tốt, nhưng vấn đề hiện tại nó
 
 Mô hình sử dụng CNN để trích xuất các đặc trưng mình đề xuất như sau.
 
-![cnn](images/cnn.png)
+![cnn](images/cnn.PNG)
 
 Mô hình hiện cũng bị overfitting, nhưng độ lỗi và độ chính xác khi sử dụng CNN trích xuất đặc trưng là tốt hơn hẳn so với mô hình (1).
 
@@ -51,7 +51,7 @@ Mô hình hiện cũng bị overfitting, nhưng độ lỗi và độ chính xá
 
 Kết quả của mô hình tốt nhất sau quá trình tìm kiếm mô hình được lưu ở trong file model.h5.
 
-![best result](images/best-result.png)
+![best result](images/best-result.PNG)
 
 Sử dụng đoạn code sau để load model:
 
